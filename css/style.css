@@ -70,8 +70,8 @@ body {
 }
 
 .slider-large img {
-	max-width:60%;
-	height:65vh;
+	width:60%;
+	height:55vh;
 	z-index: -50;
 	position: fixed;
 	object-fit: cover;
@@ -97,10 +97,9 @@ body {
 
 #frame {
 	float: right;
-	margin-right: -175px;
+	margin-right: -50px;
 	margin-top: 150px;
 	height:40vh;
-	display: absolute;
 }
 
 .slider-frame {
