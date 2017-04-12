@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
 
-/*LEGEND 
+/*LEGEND
 
 purple: #5c1958;
 yellow: #fcd000;
@@ -63,12 +63,18 @@ body {
 	display: inline-block;
 }
 .slider-large {
-	background-color: red;
+	background-color: rgba(238, 39, 39, 0.2);
 	width: 60%;
-	height:55vh;
-	position: absolute;
 	font-size: 36px;
 	margin-left: 20%;
+}
+
+.slider-large img {
+	max-width:60%;
+	height:65vh;
+	z-index: -50;
+	position: fixed;
+	object-fit: cover;
 }
 
 .slider-large h1 {
@@ -91,29 +97,29 @@ body {
 
 #frame {
 	float: right;
-	margin-right: -125px;
-	margin-top: 190px;
+	margin-right: -175px;
+	margin-top: 150px;
 	height:40vh;
+	display: absolute;
 }
 
 .slider-frame {
 	border-style: solid;
-    border-width: 10px;
+  border-width: 10px;
 	border-color: yellow;
 	width: 250px;
-	height:310px;
-	margin-left: 190px;
+	height:40vh;
+	margin-left: 125px;
 }
 
 .slider-small {
-	background-color: green;
-	width: 400px;
-	height:30vh;
-	margin-top: -270px;
-	margin-right:80px;
+	margin-top: -200px;
 }
 
-
-
-
-
+#frame img {
+height: auto;
+width: auto;
+max-width: 500px;
+max-height: 30vh;
+z-index: 50;
+}
