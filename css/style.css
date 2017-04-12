@@ -78,26 +78,32 @@ body {
 }
 
 .slider-large h1 {
-	margin-top:40px;
+	margin-top:50px;
 	position: absolute;
-	font-size: 45px;
-	background-color: white;
+	font-size: 60px;
+	background-color: rgba(252, 208, 0, 0.8);
 	margin-left: -50px;
 	padding: 10px;
+	color: white;
 }
 
 .slider-large h2 {
 	position: absolute;
-	margin-top: 190px;
+	margin-top: 260px;
 	background-color: white;
 	padding: 10px;
 	margin-left: -50px;
 	font-size: 30px;
+	color:#959595;
+}
+
+#projecth1 {
+	margin-top:130px;
 }
 
 #frame {
 	float: right;
-	margin-right: -50px;
+	margin-right: -100px;
 	margin-top: 150px;
 	height:40vh;
 }
@@ -105,7 +111,7 @@ body {
 .slider-frame {
 	border-style: solid;
   border-width: 10px;
-	border-color: yellow;
+	border-color: #fcd000;
 	width: 250px;
 	height:40vh;
 	margin-left: 125px;
