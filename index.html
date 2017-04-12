@@ -7,35 +7,149 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/script.js" content="text/javascript"></script>
 <title>Christina Gancz - Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
+		<!-- **************** LARGE BACKGROUND IMAGE ON HOVER  **************** -->
 		<img src="img/cover1.jpg" id="imghover">
 
+		<!-- **************** HEADER SECTION **************** -->
 		<section id="name-logo">
+			<!-- Hamburger icon goes here -->
 			<h3>☰</h3>
 			<img src="img/cg_logo.svg" id="logo">
 			<h1>Christina Gancz</h1>
 			<h2>DESIGN PORTFOLIO</h2>
 		</section>
 
+		<!-- **************** SECTION CONTAINING ENTIRE SLIDER **************** -->
+		<section id="slider" class="container">
 
-			<section class="slider-large">
-				<img src="img/cover1.jpg">
-				<h1 class="titlehover">Bee Conservation</h1>
-				<h1 id="projecth1" class="titlehover">Project</h1>
-				<h2>2016 // WEB DESIGN</h2>
+			<!-- The entire slider is wrapped in a ul here -->
+			<ul class="slider-wrapper">
+
+					<!-- BEE CONSERVATION PROJECT -->
+					<li class="current-slide">
+						<section class="slider-large" id="beeslider">
+							<img src="img/cover1.jpg">
+							<h1 class="titlehover">Bee Conservation</h1>
+							<h1 id="projecth1" class="titlehover">Project</h1>
+							<h2>2016 // WEB DESIGN</h2>
 
 
-				<div id="frame">
-					<section class="slider-frame"></section>
+							<div id="frame">
+								<section class="slider-frame"></section>
 
-					<section class="slider-small">
-						<img src="img/seedbombs1.jpg">
-					</section>
-				</div>
-			</section>
+								<section class="slider-small">
+									<img src="img/seedbombs1.jpg">
+								</section>
+							</div>
+						</section>
+					</li>
+
+					<!-- CHARLIE BOOK -->
+					<li>
+						<section class="slider-large" id="charlieslider">
+							<img src="#">
+							<h1 class="titlehover">Doctor Charlie and his</h1>
+							<h1 id="projecth1" class="titlehover">Magic Foot</h1>
+							<h2>2016 // BOOK DESIGN</h2>
+
+
+							<div id="frame">
+								<section class="slider-frame"></section>
+
+								<section class="slider-small">
+									<img src="#">
+								</section>
+							</div>
+						</section>
+					</li>
+
+					<!-- WEDDING INVITATION -->
+					<li>
+						<section class="slider-large" id="invitationslider">
+							<img src="#">
+							<h1 class="titlehover">Wedding Invitation</h1>
+							<h1 id="projecth1" class="titlehover">Set</h1>
+							<h2>2016 // PRINT DESIGN</h2>
+
+
+							<div id="frame">
+								<section class="slider-frame"></section>
+
+								<section class="slider-small">
+									<img src="#">
+								</section>
+							</div>
+						</section>
+					</li>
+
+					<!-- SPECTRUM EXHIBITION -->
+					<li>
+						<section class="slider-large" id="exhibitionslider">
+							<img src="#">
+							<h1 class="titlehover">Spectrum Design</h1>
+							<h1 id="projecth1" class="titlehover">Exhibition</h1>
+							<h2>2016 // ENVIRONMENTAL GRAPHICS</h2>
+
+
+							<div id="frame">
+								<section class="slider-frame"></section>
+
+								<section class="slider-small">
+									<img src="#">
+								</section>
+							</div>
+						</section>
+					</li>
+
+					<!-- VILEDA SCRUNGE -->
+					<li>
+						<section class="slider-large" id="viledaslider">
+							<img src="#">
+							<h1 class="titlehover">Vileda Scrunge Scrub</h1>
+							<h1 id="projecth1" class="titlehover">Sponges</h1>
+							<h2>2016 // CORPORATE DESIGN</h2>
+
+
+							<div id="frame">
+								<section class="slider-frame"></section>
+
+								<section class="slider-small">
+									<img src="#">
+								</section>
+							</div>
+						</section>
+					</li>
+
+					<!-- AGENDA DESIGN -->
+					<li>
+						<section class="slider-large" id="agendaslider">
+							<img src="#">
+							<h1 class="titlehover">Agendas and</h1>
+							<h1 id="projecth1" class="titlehover">Stationery</h1>
+							<h2>2016 // DESIGN AND ENTREPRENEURSHIP</h2>
+
+
+							<div id="frame">
+								<section class="slider-frame"></section>
+
+								<section class="slider-small">
+									<img src="#">
+								</section>
+							</div>
+						</section>
+					</li>
+			</ul>
+
+			<!-- CONTROL BUTTONS SECTION-->
+			<ul id="control-buttons" class="control-buttons"></ul>
+		</section>
+
+
 
 </body>
 
