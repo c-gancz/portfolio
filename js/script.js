@@ -1,12 +1,12 @@
 
 $(document).ready(function(){
 
-	$('.titlehover').mouseover(function(){
-		$('#imghover').fadeIn();
-	});
+	$('.titlehover').mouseenter(function(){
+		$('#imghover').stop().fadeTo(700, 0.2);
+		});
 
-	$('.titlehover').mouseout(function(){
-		$('#imghover').fadeOut();
-	});
+	$('.titlehover').mouseleave(function(){
+		$('#imghover').stop().fadeTo(700, 0);
+		});
 
 });
