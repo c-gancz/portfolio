@@ -41,6 +41,15 @@ ul {
 	list-style-type: none;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited { text-decoration: none; color: #fcd000;}
+a:hover { text-decoration: none; color: #fcd000; }
+a:focus { text-decoration: none; color: #fcd000;}
+a:hover, a:active { text-decoration: none; color: #fcd000; }
+
 /************************ HOVER BACKGROUND IMAGE ***********************/
 
 #imghover {
