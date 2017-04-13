@@ -184,10 +184,14 @@ opacity:0;
 position: fixed;
 }
 
-#beeslider, #charlieslider, #invitationslider, #exhibitionslider, #viledaslider, #agendaslider {
-	visibility: hidden;
+ #charlieslider, #invitationslider, #exhibitionslider, #viledaslider, #agendaslider {
+	display:none;
 }
 
 .largeimage {
 	opacity:0;
+}
+
+.slide.active {
+  display: block;
 }

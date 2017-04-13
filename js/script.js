@@ -3,25 +3,7 @@ $(document).ready(function(){
 
 	backgroundFade();
 
-	var projects = [$('#beeslider'), $('#charlieslider'), $('#invitationslider'), $('#exhibitionslider'), $('#viledaslider'), $('#agendaslider')];
-	var arrayLength = projects.length;
-
-	for (var i = 0; i < arrayLength; i++) {
-	    // alert(myStringArray[i]);
-	    // animateOn();
-			$(projects[i]).css({
-				'visibility':'visible'
-			});
-	}
-
-	animateOn();
-
-	setInterval(function(){
-		animateOff();
-		animateOn();
-	}, 6000);
-
-
+	animateInterval();
 
 
 });
@@ -94,4 +76,13 @@ function animateOff(){
 				opacity:"0"
 			},1700);
 
+};
+
+function animateInterval(){
+	animateOn();
+
+	setInterval(function(){
+		animateOff();
+		animateOn();
+	}, 6000);
 };
