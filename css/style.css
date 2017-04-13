@@ -5,7 +5,7 @@
 
 /************************************  LEGEND
 
-purple: #5c1958;
+purple: #32052F;
 yellow: #fcd000;
 gray: #959595;
 
@@ -91,6 +91,30 @@ ul {
 	float: right;
 	font-weight: 700;
 	font-size: 40px;
+}
+
+#toggle {
+	background-color: #fcd000;
+	width:100%;
+	padding-top: 22.5px;
+	font-size: 18px;
+	display: none;
+	height:60px;
+}
+
+#toggle h4 {
+	display: inline-block;
+	color:#32052F;
+	cursor: pointer;
+	margin-right: 18px;
+}
+
+#toggleh4 {
+	float: right;
+}
+
+#hamburger {
+	cursor: pointer;
 }
 
 /************************ SLIDER CSS ATTACHED TO JS ***********************/

@@ -5,6 +5,8 @@ $(document).ready(function(){
 
 	animateInterval();
 
+	menuToggle();
+
 
 });
 
@@ -22,6 +24,15 @@ function backgroundFade(){
 		});
 
 };
+
+function menuToggle(){
+
+	$("#hamburger").click(function(){
+    $("#toggle").slideToggle();
+	});
+
+};
+
 
 // FUNCTION 2: The function that allows the slider to keep switching to the next project.
 function animateOn(){
