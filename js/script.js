@@ -2,16 +2,17 @@
 $(document).ready(function(){
 
 	backgroundFade();
-	
-	// var cars = [$('#beeslider'), $('#charlieslider')];
-	// var rand = cars[Math.floor(Math.random() * cars.length)];
 
-	// $(rand).css({
-	// 	'visibility':'visible'
-	// });
-	$('#beeslider').css({
-		'visibility':'visible'
-	});
+	var projects = [$('#beeslider'), $('#charlieslider'), $('#invitationslider'), $('#exhibitionslider'), $('#viledaslider'), $('#agendaslider')];
+	var arrayLength = projects.length;
+
+	for (var i = 0; i < arrayLength; i++) {
+	    // alert(myStringArray[i]);
+	    // animateOn();
+			$(projects[i]).css({
+				'visibility':'visible'
+			});
+	}
 
 	animateOn();
 
