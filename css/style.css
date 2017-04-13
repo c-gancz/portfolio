@@ -25,6 +25,8 @@ body {
 	background-color: #32052F;
 	font-family: 'Lato', sans-serif;
 	height:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
 }
 
 .clearfix:after {
@@ -163,6 +165,8 @@ ul {
 	width: 250px;
 	height:40vh;
 	margin-left: 200px;
+	margin-top: 600px;
+
 }
 
 .slider-small {
@@ -170,18 +174,20 @@ ul {
 }
 
 #frame img {
-height: auto;
-width: auto;
-max-width: 500px;
-max-height: 30vh;
+width: 350px;
+height: 30vh;
 z-index: 50;
-margin-top: -25px;
+margin-top:200px;
+margin-left: 50px;
+object-fit: cover;
+opacity:0;
+position: fixed;
 }
 
 #charlieslider, #invitationslider, #exhibitionslider, #viledaslider, #agendaslider {
-	display: none;
+	visibility: hidden;
 }
 
 .largeimage {
-	display: none;
+	opacity:0;
 }
