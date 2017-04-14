@@ -48,7 +48,7 @@ a {
 a:visited { text-decoration: none; color: #fcd000;}
 a:hover { text-decoration: none; color: #fcd000; }
 a:focus { text-decoration: none; color: #fcd000;}
-a:hover, a:active { text-decoration: none; color: #fcd000; }
+a:hover, a:active { text-decoration: none; color: #fcd000;}
 
 /************************ HOVER BACKGROUND IMAGE ***********************/
 
@@ -262,4 +262,15 @@ position: fixed;
 
 .slide.active {
   display: block;
+}
+
+
+.projectname {
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+	color: rgba(252, 208, 0, 0.8);
+	width: 50%;
+	line-height:65px;
+	margin-left: 10%;
 }
