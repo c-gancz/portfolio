@@ -157,17 +157,6 @@ a {
 }
 
 
-/************************ SLIDER CSS ATTACHED TO JS ***********************/
-
-.slider-wrapper li {
-	display: none;
-}
-
-.slider-wrapper .current-slide {
-	display: block;
-}
-
-
 /************************ MY SLIDER STYLES ***********************/
 
 #slider section {
@@ -248,8 +237,9 @@ opacity:0;
 position: fixed;
 }
 
+/*THIS IS WHERE THE SECTIONS VISIBILITY IS HIDDEN*/
  #charlieslider, #invitationslider, #exhibitionslider, #viledaslider, #agendaslider {
-	display:none;
+	visibility: hidden;
 }
 
 .largeimage {
