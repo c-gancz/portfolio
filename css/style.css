@@ -42,13 +42,9 @@ ul {
 }
 
 a {
-	text-decoration: none;
+  color: #fcd000;
+  text-decoration: none; /* no underline */
 }
-
-a:visited { text-decoration: none; color: #fcd000;}
-a:hover { text-decoration: none; color: #fcd000; }
-a:focus { text-decoration: none; color: #fcd000;}
-a:hover, a:active { text-decoration: none; color: #fcd000;}
 
 /************************ HOVER BACKGROUND IMAGE ***********************/
 
