@@ -1,5 +1,5 @@
 // Variables to manage which section we're displaying (so we can animate them in and out)
-var sections = ['#beeslider','#charlieslider','#invitationslider','#exhibitionslider','#agendaslider'];
+var sections = ['#beeslider','#charlieslider','#invitationslider','#exhibitionslider','#agendaslider', '#viledaslider'];
 var currentSectionId = '#beeslider';
 var sectionIndex = -1;
 
