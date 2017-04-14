@@ -238,8 +238,9 @@ position: fixed;
 }
 
 /*THIS IS WHERE THE SECTIONS VISIBILITY IS HIDDEN*/
- #charlieslider, #invitationslider, #exhibitionslider, #viledaslider, #agendaslider {
-	visibility: hidden;
+ #beeslider, #charlieslider, #invitationslider, #exhibitionslider, #viledaslider, #agendaslider {
+	/*visibility: hidden;*/
+	display: none; /* Start with nothing displaying */
 }
 
 .largeimage {
