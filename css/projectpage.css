@@ -5,28 +5,27 @@ yellow: #fcd000;
 gray: #959595;
 
 */
-
+/***************** GENERAL ****************/
 body {
-  background-color: white;
-}
-
-.coverbkg h1 {
-  font-size: 60px;
-  background-color: rgba(252, 208, 0, 0.8);
-  padding: 10px;
-  color: white;
+  background: url(../img/cover1.jpg) no-repeat bottom center fixed;
+  background-size: cover;
+  overflow: visible;
 }
 
 p {
   font-size: 18px;
-  color: #959595;
+  color: #424242;
 }
+
+/***************** STICKY MENU BAR ****************/
 
 #menubar {
   background-color: #32052F;
   height:60px;
   width: 100%;
   position: fixed;
+  top:0px;
+  z-index: 200;
 }
 
 #menubar .hvr-underline-reveal::before {
@@ -55,4 +54,38 @@ p {
 #logoproject h1{
   font-size: 18px;
   padding-top:0px;
+}
+
+/***************** COVER BACKGROUND SECTION ****************/
+.coverbkg {
+  height:100vh;
+  padding-top: 30vh;
+}
+
+.coverbkg h1 {
+  font-size: 60px;
+  background-color: rgba(252, 208, 0, 0.8);
+  padding: 10px;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+#headertext {
+  background-color:rgba(255, 255, 255, 0.8);
+  width:25%;
+  display: inline-block;
+  float: right;
+  line-height: 30px;
+  padding:20px;
+  margin-right: 10%;
+  margin-left: 5%;
+  position: fixed;
+}
+
+#header {
+  margin-left: 10%;
+  width:50%;
+  display: inline-block;
+
 }
