@@ -1,0 +1,49 @@
+/************************************  LEGEND
+
+purple: #32052F;
+yellow: #fcd000;
+gray: #959595;
+
+*/
+
+body {
+  background-color: white;
+}
+
+.coverbkg h1 {
+  font-size: 60px;
+  background-color: rgba(252, 208, 0, 0.8);
+  padding: 10px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: #959595;
+}
+
+#toggle {
+  background-color: #32052F;
+  height:70px;
+}
+
+#logo {
+  width:30px;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+#toggle h4 {
+  color:#fcd000;
+  padding-top: 5px;
+}
+
+#logoproject {
+  display: inline-block;
+  width:300px;
+}
+
+#logoproject h1{
+  font-size: 24px;
+  padding-top:2px;
+}
