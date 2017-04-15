@@ -22,28 +22,37 @@ p {
   color: #959595;
 }
 
-#toggle {
+#menubar {
   background-color: #32052F;
-  height:70px;
+  height:60px;
+  width: 100%;
+  position: fixed;
+}
+
+#menubar .hvr-underline-reveal::before {
+  height:2px;
 }
 
 #logo {
   width:30px;
   margin-left: 20px;
-  margin-top: -5px;
+  margin-top: -10px;
 }
 
-#toggle h4 {
+#menubar h4 {
   color:#fcd000;
-  padding-top: 5px;
+  margin-top: 22.5px;
+  font-size: 16px;
+  margin-right:20px;
 }
 
 #logoproject {
   display: inline-block;
   width:300px;
+  margin-top: 22.5px;
 }
 
 #logoproject h1{
-  font-size: 24px;
-  padding-top:2px;
+  font-size: 18px;
+  padding-top:0px;
 }
