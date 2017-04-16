@@ -10,11 +10,13 @@ body {
   background: url(../img/cover1.jpg) no-repeat bottom center fixed;
   background-size: cover;
   overflow: visible;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
   font-size: 18px;
-  color: #424242;
+  color: #6c6c6c;
+  line-height:25px;
 }
 
 /***************** STICKY MENU BAR ****************/
@@ -58,11 +60,9 @@ p {
 
 /***************** COVER BACKGROUND SECTION ****************/
 .coverbkg {
-  width: 70%;
-  margin-left: 15%;
-  height:70%;
-  margin-top:15%;
-  margin-bottom: 15%;
+  width: 100%;
+  height:100vh;
+  position: fixed;
 }
 
 span {
@@ -74,13 +74,15 @@ span {
   font-size: 60px;
   /*padding: 10px;*/
   color: white;
-  position: relative;
+
 }
 
 #headertext {
   background-color:rgba(255, 255, 255, 0.8);
-  line-height: 30px;
+  line-height:25px;
   padding:20px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 #secondh1 {
@@ -89,5 +91,67 @@ span {
 
 #header {
   display: inline-block;
+  margin-bottom: 5%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top:27.5vh;
+}
+
+.fullphotos {
+  background-color:white;
+  width: 100%;
+  position:absolute;
+  margin-top:100%;
+}
+
+.fullphotos1 {
+  padding-top: 5%;
+}
+
+.fullphotos1 .brief {
+  padding-right: 5%;
+}
+
+.fullphotos1 img {
+  margin-left:5%;
+}
+
+.fullphotos img {
+  background-color: red;
+  width:60%;
+  height:60vh;
+}
+
+.brief {
+  display: inline-block;
+  float: right;
+  width:34.5%;
+  padding-left: 5%;
+}
+
+.fullphotos2 {
+  background-color:#32052F;
+  margin-top: 5%;
+  position: relative;
+  padding:5%;
+  padding-right: 0%;
+}
+
+.fullphotos2 img {
+  width:34.5%;
+  margin-left:0%;
+}
+
+.fullphotos2 .brief {
+  width:65%;
+}
+
+#largephoto {
+  width:90%;
+  margin-left:5%;
+  height:100vh;
+  background-color: red;
+  position: relative;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
