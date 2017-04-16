@@ -234,8 +234,13 @@ section .projectlegend {
   font-size:30px;
 }
 
+.previousproject {
+  margin-left: 10%;
+  margin-right:10%;
+}
+
 .projectlegend div {
-  width:40%;
+  width:35%;
   display: inline-block;
   background-color: red;
 }
