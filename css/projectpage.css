@@ -180,6 +180,7 @@ span {
   color:white;
 }
 
+/***************** HALF PHOTO SECTION ****************/
 .halfimage img {
   background-color:rgb(117, 117, 117);
   width:45%;
@@ -197,6 +198,7 @@ span {
   float: right;
 }
 
+/***************** PHOTO SLIDER ****************/
 .photoslider img{
   width:80%;
   margin-left: 10%;
@@ -216,9 +218,32 @@ span {
   margin-right:4.75%;
   height:75px;
   display: inline-block;
-  background-color: blue;
+  background-color:rgb(117, 117, 117);
 }
 
 section .last {
   margin-right:-5%;
+}
+
+/***************** NEXT PROJECT SECTION ****************/
+section .projectlegend {
+  width:100%;
+  background-color: #32052F;
+  height:300px;
+  color:#fcd000;
+  font-size:30px;
+}
+
+.projectlegend div {
+  width:40%;
+  display: inline-block;
+  background-color: red;
+}
+
+
+/***************** CONTACT FOOTER ****************/
+section .contactfooter {
+  width:100%;
+  background-color:#fcd000;
+  height:75px;
 }
