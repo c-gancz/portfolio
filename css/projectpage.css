@@ -102,6 +102,7 @@ span {
   width: 100%;
   position:absolute;
   margin-top:100%;
+  height:100%;
 }
 
 .fullphotos1 {
@@ -140,18 +141,25 @@ span {
 .fullphotos2 img {
   width:34.5%;
   margin-left:0%;
+  height:100%;
+  float: right;
+  margin-right: 5%;
 }
 
 .fullphotos2 .brief {
   width:65%;
+  margin-left: -5%;
 }
 
+#largephotodiv {
+  width: 100%;
+  height:100vh;
+  background-color: white;
+  padding-top: 5%;
+}
 #largephoto {
   width:90%;
-  margin-left:5%;
-  height:100vh;
+  height:90%;
   background-color: red;
   position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
