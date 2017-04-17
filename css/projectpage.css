@@ -64,12 +64,13 @@ p {
   position: fixed;
   width:50%;
   margin-left:25%;
-    margin-top:35vh;
+  margin-top:35vh;
 }
 
 span {
   background-color: rgba(252, 208, 0, 0.8);
   padding: 10px;
+  white-space: pre-wrap;
 }
 
 .coverbkg h1 {
@@ -227,28 +228,75 @@ section .last {
 
 /***************** NEXT PROJECT SECTION ****************/
 section .projectlegend {
-  width:100%;
   background-color: #32052F;
-  height:300px;
+  height:400px;
   color:#fcd000;
-  font-size:30px;
+  font-size:21px;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 
 .previousproject {
+  width:35%;
   margin-left: 10%;
   margin-right:10%;
 }
 
-.projectlegend div {
-  width:35%;
+.previousproject, .nextproject {
   display: inline-block;
-  background-color: red;
+  width:35%;
+  float: left;
+  height:100%;
+  overflow: hidden;
 }
 
+.projectlegend h1 {
+  font-size:40px;
+  color:white;
+}
+
+.projectlegend span {
+  line-height:59px;
+  padding:5px;
+}
+
+.projectlegend img {
+  width:65%;
+  background-color:rgb(117, 117, 117);
+  display: inline-block;
+  height:320px;
+  float: right;
+  margin-top:-225px;
+}
+
+.projectlegend h2 {
+  margin-bottom: 50px;
+  line-height:27px;
+}
 
 /***************** CONTACT FOOTER ****************/
 section .contactfooter {
   width:100%;
-  background-color:#fcd000;
-  height:75px;
+  background-color:#32052F;
+  height:60px;
+  padding-left: 20px;
+  padding-top:22.5px;
+}
+.contactfooter h3 {
+  font-weight:400;
+  font-size:16px;
+  color:#fcd000;
+  display:inline-block;
+  float: left;
+  margin-right: 30px;
+}
+
+i {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.socialmedia {
+  display: inline-block;
+  float: right;
 }
