@@ -3,6 +3,10 @@ var sections = ['#beeslider','#charlieslider','#invitationslider','#exhibitionsl
 var currentSectionId = '#beeslider';
 var sectionIndex = -1;
 
+var images = ['.imageholder1','.imageholder2','.imageholder3','.imageholder4','.imageholder5', '.imageholder6'];
+var currentImageClass = '.imageholder1';
+var imagesIndex = 0;
+
 
 $(document).ready(function(){
 
@@ -13,6 +17,10 @@ $(document).ready(function(){
 	menuToggle();
 
 	tabsText();
+
+	imageSlider();
+
+	sliderArrows();
 
 
 });
@@ -32,6 +40,7 @@ function backgroundFade(){
 
 };
 
+// FUNCTION 2: Menu bar toggle ////////////////////////////////
 function menuToggle(){
 
 	$("#hamburger").click(function(){
@@ -40,8 +49,7 @@ function menuToggle(){
 
 };
 
-
-// FUNCTION 2: The function that allows the slider to keep switching to the next project.
+// FUNCTION 3: The function that allows the slider to keep switching to the next project.
 function animateOn(){
 	// Make the section that just animated out stop displaying
 	$(currentSectionId).css('display','none');
@@ -121,6 +129,7 @@ function animateInterval(){
 	}, 6000);
 };
 
+// FUNCTION 4: Tabs project text ////////////////////////////////
 function tabsText(){
 
 	// SUMMARY TAB
@@ -206,8 +215,73 @@ function tabsText(){
 			'color':'#32052F'
 		});
 	});
+};
 
+// FUNCTION 5: Image slider ////////////////////////////////
+function imageSlider(){
 
+	$('.image1').click(function(){
+		$('.imageholder1').fadeIn(500);
 
+		$('.imageholder2,.imageholder3, .imageholder4,.imageholder5,.imageholder6').hide();
+	});
+
+	$('.image2').click(function(){
+		$('.imageholder2').fadeIn(500);
+
+		$('.imageholder1,.imageholder3, .imageholder4,.imageholder5,.imageholder6').hide();
+	});
+
+	$('.image3').click(function(){
+		$('.imageholder3').fadeIn(500);
+
+		$('.imageholder1,.imageholder2, .imageholder4,.imageholder5,.imageholder6').hide();
+	});
+
+	$('.image4').click(function(){
+		$('.imageholder4').fadeIn(500);
+
+		$('.imageholder1,.imageholder2, .imageholder3,.imageholder5,.imageholder6').hide();
+	});
+
+	$('.image5').click(function(){
+		$('.imageholder5').fadeIn(500);
+
+		$('.imageholder1,.imageholder2, .imageholder3,.imageholder4,.imageholder6').hide();
+	});
+
+	$('.image6').click(function(){
+		$('.imageholder6').fadeIn(500);
+
+		$('.imageholder1,.imageholder2, .imageholder3,.imageholder4,.imageholder5').hide();
+	});
+
+};
+
+// FUNCTION 7: Image slider arrows ///////////////////
+
+function sliderArrows(){
+	$('.imageholder1').fadeIn(500);
+
+	$('.right').click(function(){
+		$(currentImageClass).hide();
+
+		imagesIndex = (imagesIndex + 1) % images.length;
+		// Pull out the id of the section to display
+		currentImageClass = images[imagesIndex];
+		// Make it display on the page
+		$(currentImageClass).fadeIn(500);
+	});
+
+	$('.left').click(function(){
+		$(currentImageClass).hide();
+
+		imagesIndex = (imagesIndex -1) % images.length;
+		// Pull out the id of the section to display
+		currentImageClass = images[imagesIndex];
+		// Make it display on the page
+		$(currentImageClass).fadeIn(500);
+
+	});
 
 };
