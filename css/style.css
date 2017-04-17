@@ -101,17 +101,14 @@ a {
 }
 
 #toggle {
-	background-color: #fcd000;
-	width:100%;
 	padding-top: 22.5px;
 	font-size: 18px;
-	display: none;
 	height:60px;
 }
 
 #toggle h4 {
 	display: inline-block;
-	color: #32052F;
+	color: #fcd000;
 	cursor: pointer;
 	margin-right: 18px;
 }

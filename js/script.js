@@ -14,8 +14,6 @@ $(document).ready(function(){
 
 	animateInterval();
 
-	menuToggle();
-
 	tabsText();
 
 	imageSlider();
@@ -36,15 +34,6 @@ function backgroundFade(){
 
 	$('.titlehover').mouseleave(function(){
 		$('#imghover').stop().fadeTo(700, 0);
-	});
-
-};
-
-// FUNCTION 2: Menu bar toggle ////////////////////////////////
-function menuToggle(){
-
-	$("#hamburger").click(function(){
-		$("#toggle").slideToggle();
 	});
 
 };
