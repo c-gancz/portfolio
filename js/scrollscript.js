@@ -17,6 +17,8 @@ $(document).ready(function() {
 
   sliderFade();
 
+  projectPrevious();
+
   projectNext();
 });
 
@@ -149,7 +151,7 @@ function sliderFade(){
   title.addTo(controller);
 }
 
-function projectNext(){
+function projectPrevious(){
   var controller = new ScrollMagic.Controller();
 
   var title = new ScrollMagic.Scene({
@@ -160,6 +162,24 @@ function projectNext(){
   title.setTween(".previousproject", 1, {
     'opacity':'1',
     'margin-left':'10%'
+  });
+
+  title.triggerHook(1);
+
+  title.addTo(controller);
+}
+
+function projectNext(){
+  var controller = new ScrollMagic.Controller();
+
+  var title = new ScrollMagic.Scene({
+    triggerElement: ".nextproject",
+    duration:800
+  });
+
+  title.setTween(".nextproject", 1, {
+    'opacity':'1',
+    'margin-left':'3%'
   });
 
   title.triggerHook(1);
