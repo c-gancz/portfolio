@@ -20,7 +20,6 @@ $(document).ready(function(){
 
 	sliderArrows();
 
-
 });
 
 /////////////////////// FUNCTIONS //////////////////////////
@@ -272,5 +271,4 @@ function sliderArrows(){
 		$(currentImageClass).fadeIn(500);
 
 	});
-
-};
+}

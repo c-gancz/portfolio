@@ -1,0 +1,39 @@
+/************************************  LEGEND
+
+purple: #32052F;
+yellow: #fcd000;
+gray: #959595;
+
+*/
+
+@media only screen and (max-width:480px) {
+    #desktopview {
+			display: none;
+		}
+
+		#mobileview {
+			display: show;
+		}
+}
+
+@media (min-width:600px)  {
+
+  #desktopview {
+    display: show;
+  }
+
+  #mobileview {
+    display:none;
+  }
+
+}
+
+@media only screen and (min-width:1200px) {
+    #desktopview {
+			display: show;
+		}
+
+		#mobileview {
+			display:none;
+		}
+}
