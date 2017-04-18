@@ -88,6 +88,7 @@ span {
   line-height: 40px;
   display: inline-block;
   width:100%;
+  display: none;
 }
 
 #secondh1 {
@@ -98,10 +99,11 @@ span {
   display: inline-block;
   margin-bottom:10%;
   width:100%;
+  margin-left: -800px;
+  opacity: 0;
 }
 
 /***************** BRIEF SECTION ****************/
-
 .projecttext {
   width:100%;
   background-color: white;
@@ -117,6 +119,7 @@ span {
   margin-right: 10%;
   width:15%;
   font-size: 30px;
+  opacity: 0;
 }
 
 .tabs h2 {
@@ -136,6 +139,10 @@ span {
 .tabs span:hover {
   background-color:#fcd000;
   color:white;
+}
+
+.summarytext {
+  opacity: 0;
 }
 
 .projecttext p {
@@ -171,9 +178,10 @@ span {
   position: absolute;
   font-size:50px;
   width:60%;
-  margin-left: 10%;
+  margin-left:5%;
   line-height:80px;
   margin-top:-40vh;
+  opacity: 0;
 }
 
 .fullimage span {
@@ -186,7 +194,7 @@ span {
   background-color:rgb(117, 117, 117);
   width:45%;
   height:60vh;
-  margin-left: 10%;
+  margin-left:8%;
   margin-right:5%;
   display: inline-block;
   margin-bottom: 5%;
@@ -199,6 +207,11 @@ span {
   float: right;
 }
 
+.p1, .p2 {
+  opacity: 0;
+}
+
+
 /***************** PHOTO SLIDER ****************/
 .photoslider img{
   width:80%;
@@ -206,6 +219,7 @@ span {
   height:70vh;
   background-color:rgb(117, 117, 117);
   margin-bottom: 5%;
+  opacity: 0;
 }
 
 .slidericons {
@@ -290,7 +304,7 @@ section .projectlegend {
 
 .previousproject {
   width:35%;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-right:10%;
 }
 
@@ -300,6 +314,7 @@ section .projectlegend {
   float: left;
   height:100%;
   overflow: hidden;
+  opacity: 0;
 }
 
 .projectlegend h1 {
