@@ -1,0 +1,68 @@
+/************************************  LEGEND
+
+purple: #32052F;
+yellow: #fcd000;
+gray: #959595;
+
+*/
+
+h1 {
+  font-size:40px;
+  color:#fcd000;
+  margin-bottom:6.5vh;
+}
+
+.projectlist {
+  margin-left: 10%;
+  width:50%;
+  display: inline-block;
+}
+
+.projectimage {
+  margin-right: 10%;
+  margin-left: 5%;
+  width:25%;
+  height:68vh;
+  background-color: green;
+  display: inline-block;
+  float: right;
+}
+
+.imagelarge {
+  width:90%;
+  height:40vh;
+  margin-top:10vh;
+  object-fit: cover;
+}
+
+.projectimage h2 {
+  font-size: 30px;
+  background-color:rgba(255, 255, 255,0.9);
+  color:#959595;
+  padding:10px;
+  display: inline-block;
+  position: fixed;
+  margin-top:50px;
+  margin-left: -30px;
+}
+
+.imagesmall {
+  width:17.5%;
+  position: fixed;
+  margin-top:275px;
+  margin-left:-15%;
+  object-fit: cover;
+  height:25vh;
+  z-index: 2;
+}
+
+/*.imageborder {
+  width:17.5%;
+  height:200px;
+  border-style: solid;
+  border-width:10px;
+  border-color: #fcd000;
+  position: fixed;
+  margin-top: -150px;
+  margin-left:80px;
+}*/
