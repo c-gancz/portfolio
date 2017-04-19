@@ -32,7 +32,7 @@ body {
 }
 
 #agenda{
-  background: url(../img/cover6_agenda.jpg) no-repeat top center fixed;
+  background: url(../img/cover6_agenda.jpg) no-repeat center fixed;
   background-size: cover;
 }
 
@@ -363,6 +363,7 @@ section .projectlegend {
   height:320px;
   float: right;
   margin-top:-225px;
+  object-fit: cover;
 }
 
 .projectlegend h2 {
