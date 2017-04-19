@@ -48,7 +48,7 @@ a {
 
 /************************ HOVER BACKGROUND IMAGE ***********************/
 
-#imghover {
+#beehover, #charliehover, #invitationhover, #exhibitionhover, #agendahover, #viledahover {
 	width: 100%;
 	height:100vh;
 	position: absolute;

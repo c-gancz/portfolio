@@ -27,13 +27,60 @@ $(document).ready(function(){
 // FUNCTION 1: Make slightly-opaque background image appear while hovering over the project title.
 function backgroundFade(){
 
-	$('.titlehover').mouseenter(function(){
-		$('#imghover').stop().fadeTo(700, 0.2);
+	// BEE CONSERVATION PROJECT BKG FADE
+	$('#beeslider .titlehover').mouseenter(function(){
+		$('#beehover').stop().fadeTo(700, 0.2);
 	});
 
-	$('.titlehover').mouseleave(function(){
-		$('#imghover').stop().fadeTo(700, 0);
+	$('#beeslider .titlehover').mouseleave(function(){
+		$('#beehover').stop().fadeTo(700, 0);
 	});
+
+	// CHARLIE PROJECT BKG FADE
+	$('#charlieslider .titlehover').mouseenter(function(){
+		$('#charliehover').stop().fadeTo(700, 0.2);
+	});
+
+	$('#charlieslider .titlehover').mouseleave(function(){
+		$('#charliehover').stop().fadeTo(700, 0);
+	});
+
+	// INVITATION BKG FADE
+	$('#invitationslider .titlehover').mouseenter(function(){
+		$('#invitationhover').stop().fadeTo(700, 0.2);
+	});
+
+	$('#invitationslider .titlehover').mouseleave(function(){
+		$('#invitationhover').stop().fadeTo(700, 0);
+	});
+
+	// EXHIBITION BKG FADE
+	$('#exhibitionslider .titlehover').mouseenter(function(){
+		$('#exhibitionhover').stop().fadeTo(700, 0.2);
+	});
+
+	$('#exhibitionslider .titlehover').mouseleave(function(){
+		$('#exhibitionhover').stop().fadeTo(700, 0);
+	});
+
+	// AGENDA BKG FADE
+	$('#agendaslider .titlehover').mouseenter(function(){
+		$('#agendahover').stop().fadeTo(700, 0.2);
+	});
+
+	$('#agendaslider .titlehover').mouseleave(function(){
+		$('#agendahover').stop().fadeTo(700, 0);
+	});
+
+	// VILEDA BKG FADE
+	$('#viledaslider .titlehover').mouseenter(function(){
+		$('#viledahover').stop().fadeTo(700, 0.2);
+	});
+
+	$('#viledaslider .titlehover').mouseleave(function(){
+		$('#viledahover').stop().fadeTo(700, 0);
+	});
+
 
 };
 
