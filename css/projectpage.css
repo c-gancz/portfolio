@@ -7,10 +7,38 @@ gray: #959595;
 */
 /***************** GENERAL ****************/
 body {
-  background: url(../img/cover1.jpg) no-repeat bottom center fixed;
-  background-size: cover;
   overflow: visible;
   font-family: 'Lato', sans-serif;
+}
+
+#bee{
+  background: url(../img/cover1_beeproject.jpg) no-repeat top center fixed;
+  background-size: cover;
+}
+
+#charlie{
+  background: url(../img/cover3_charliebook.jpg) no-repeat top center fixed;
+  background-size: cover;
+}
+
+#invitation{
+  background: url(../img/cover2_invitationproject.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+#exhibition{
+  background: url(../img/cover4_exhibition.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+#agenda{
+  background: url(../img/cover6_agenda.jpg) no-repeat top center fixed;
+  background-size: cover;
+}
+
+#vileda{
+  background: url(../img/cover5_vileda.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 p {
