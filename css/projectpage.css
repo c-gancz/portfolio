@@ -242,6 +242,7 @@ span {
 
 
 /***************** PHOTO SLIDER ****************/
+
 .photoslider img{
   width:80%;
   margin-left: 10%;
@@ -249,6 +250,7 @@ span {
   background-color:rgb(117, 117, 117);
   margin-bottom: 5%;
   opacity: 0;
+  object-fit: contain;
 }
 
 .slidericons {
@@ -257,6 +259,10 @@ span {
   margin-left: 11.25%;
 }
 
+.slidericons img {
+  width:100%;
+  object-fit: cover;
+}
 .slidericons h1 {
   display: inline-block;
   font-size: 40px;
@@ -287,33 +293,37 @@ span {
   display: none;
 }
 
-.image1, img.imageholder1{
-  background-color: blue;
+img.imageholder1, img.imageholder2, img.imageholder3, img.imageholder4, img.imageholder5, img.imageholder6 {
+    background-color: #32052F;
+}
+
+.image1{
+  background-color: white;
   cursor: pointer;
 }
 
-.image2, img.imageholder2{
-  background-color: green;
+.image2{
+  background-color: white;
   cursor: pointer;
 }
 
-.image3, img.imageholder3{
-  background-color: red;
+.image3{
+  background-color: white;
   cursor: pointer;
 }
 
-.image4, img.imageholder4{
-  background-color: yellow;
+.image4{
+  background-color:white;
   cursor: pointer;
 }
 
-.image5, img.imageholder5{
-  background-color: purple;
+.image5{
+  background-color:white;
   cursor: pointer;
 }
 
-.image6, img.imageholder6{
-  background-color: pink;
+.image6{
+  background-color:white;
   cursor: pointer;
 }
 
