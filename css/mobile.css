@@ -271,29 +271,27 @@ body {
 /*************************** CONTACT PAGE **********************/
 #profile {
   width:20%;
-  margin-left:10%;
   display: inline-block;
-  margin-right:5%;
 }
 
 #profile img {
   width: 100%;
   object-fit: cover;
   height:65vh;
+  margin-left: -10%;
 }
 
 #textprofile {
-  width:55%;
   display: inline-block;
-  float: right;
-  margin-right: 10%;
   height:65vh;
 }
 
 .profiledescription {
-  width:70%;
+  width:50%;
   height:65vh;
   display: inline-block;
+  float: left;
+  margin-left: 10%;
 }
 
 .profiledescription span, .smedia span  {
@@ -317,7 +315,7 @@ body {
   font-size: 18px;
   color:#959595;
   line-height:25px;
-  padding:40px 20px 20px 20px;
+  padding:40px 60px 20px 20px;
 }
 
 .smedia {
@@ -335,6 +333,7 @@ body {
   width: 10%;
   margin-right: 5%;
   margin-bottom:10%;
+  cursor: pointer;
 }
 
 .smedia p {
@@ -343,6 +342,7 @@ body {
   margin-top:5px;
   color:#fcd000;
   font-size:16px;
+  cursor: pointer;
 }
 
 #resumeicons {
