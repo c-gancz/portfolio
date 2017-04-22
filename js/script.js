@@ -22,6 +22,10 @@ $(document).ready(function(){
 
 	mobileMenu();
 
+	listFade();
+
+	animateList();
+
 });
 
 /////////////////////// FUNCTIONS //////////////////////////
@@ -322,10 +326,105 @@ function sliderArrows(){
 	});
 }
 
+//////////////////// SLIDE TOGGLE MENU //////////////////////////////
 function mobileMenu(){
 
 	$(".hamburger").click(function(){
     $(".menu").slideToggle();
 });
+
+};
+
+/////////////////////  FUNCTION PROJECT LIST BACKGROUND FADE
+function listFade(){
+
+	// BEE CONSERVATION PROJECT BKG FADE
+	$('.beelisthover').mouseenter(function(){
+		$('#beelist').stop().fadeTo(700, 0.2);
+
+		$('#beeprojectimage').show();
+
+		$('#charlieprojectimage, #invitationprojectimage, #exhibitionprojectimage, #agendaprojectimage, #viledaprojectimage').hide();
+	});
+
+	$('.beelisthover').mouseleave(function(){
+		$('#beelist').stop().fadeTo(700, 0);
+	});
+
+	// CHARLIE BOOK PROJECT BKG FADE
+	$('.charlielisthover').mouseenter(function(){
+		$('#charlielist').stop().fadeTo(700, 0.2);
+
+		$('#charlieprojectimage').show();
+
+		$('#beeprojectimage, #invitationprojectimage, #exhibitionprojectimage, #agendaprojectimage, #viledaprojectimage').hide();
+	});
+
+	$('.charlielisthover').mouseleave(function(){
+		$('#charlielist').stop().fadeTo(700, 0);
+	});
+
+	// INVITATION PROJECT BKG FADE
+	$('.invitationlisthover').mouseenter(function(){
+		$('#invitationlist').stop().fadeTo(700, 0.2);
+
+		$('#invitationprojectimage').show();
+
+		$('#beeprojectimage, #charlieprojectimage, #exhibitionprojectimage, #agendaprojectimage, #viledaprojectimage').hide();
+	});
+
+	$('.invitationlisthover').mouseleave(function(){
+		$('#invitationlist').stop().fadeTo(700, 0);
+	});
+
+	// EXHIBITION PROJECT BKG FADE
+	$('.exhibitionlisthover').mouseenter(function(){
+		$('#exhibitionlist').stop().fadeTo(700, 0.2);
+
+		$('#exhibitionprojectimage').show();
+
+		$('#beeprojectimage, #charlieprojectimage, #invitationprojectimage, #agendaprojectimage, #viledaprojectimage').hide();
+	});
+
+	$('.exhibitionlisthover').mouseleave(function(){
+		$('#exhibitionlist').stop().fadeTo(700, 0);
+	});
+
+	// AGENDA PROJECT BKG FADE
+	$('.agendalisthover').mouseenter(function(){
+		$('#agendalist').stop().fadeTo(700, 0.2);
+
+		$('#agendaprojectimage').show();
+
+		$('#beeprojectimage, #charlieprojectimage, #exhibitionprojectimage, #invitationprojectimage, #viledaprojectimage').hide();
+	});
+
+	$('.agendalisthover').mouseleave(function(){
+		$('#agendalist').stop().fadeTo(700, 0);
+	});
+
+	// VILEDA PROJECT BKG FADE
+	$('.viledalisthover').mouseenter(function(){
+		$('#viledalist').stop().fadeTo(700, 0.2);
+
+		$('#viledaprojectimage').show();
+
+		$('#beeprojectimage, #charlieprojectimage, #exhibitionprojectimage, #agendaprojectimage, #invitationprojectimage').hide();
+	});
+
+	$('.viledalisthover').mouseleave(function(){
+		$('#viledalist').stop().fadeTo(700, 0);
+	});
+
+};
+
+/////////////////////  FUNCTION PROJECT LIST animation
+
+function animateList(){
+	$('#beeprojectimage .imagelarge').fadeIn(1250);
+
+	$('.imagesmall').animate({
+		'margin-left':'-15%'
+	},1250);
 
 };
