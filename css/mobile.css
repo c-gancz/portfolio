@@ -260,6 +260,14 @@ body {
   margin-left:0%;
 }
 
+.marginbottommobile {
+  margin-bottom: 5%;
+}
+
+.pbold {
+  font-weight: 700;
+}
+
 /************************  DON'T TOUCH THIS PART ***********************/
 @media (min-width:600px)  {
 
