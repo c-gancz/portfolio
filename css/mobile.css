@@ -268,6 +268,87 @@ body {
   font-weight: 700;
 }
 
+/*************************** CONTACT PAGE **********************/
+#profile {
+  width:20%;
+  margin-left:10%;
+  display: inline-block;
+  margin-right:5%;
+}
+
+#profile img {
+  width: 100%;
+  object-fit: cover;
+  height:65vh;
+}
+
+#textprofile {
+  width:55%;
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+  height:65vh;
+}
+
+.profiledescription {
+  width:70%;
+  height:65vh;
+  display: inline-block;
+}
+
+.profiledescription span, .smedia span  {
+  background-color: #fcd000;
+  color:white;
+  padding:10px;
+}
+
+.profiledescription h1, .smedia h1 {
+  margin-bottom: 0%;
+  margin-top:14px;
+  margin-left: -30px;
+}
+
+.ptext {
+  background-color: white;
+  width:85%;
+}
+
+.ptext p  {
+  font-size: 18px;
+  color:#959595;
+  line-height:25px;
+  padding:40px 20px 20px 20px;
+}
+
+.smedia {
+  width:30%;
+  height:65vh;
+  display: inline-block;
+  float: right;
+}
+
+.smedia i, .smedia p {
+  display: inline-block;
+}
+
+.smedia i {
+  width: 10%;
+  margin-right: 5%;
+  margin-bottom:10%;
+}
+
+.smedia p {
+  width:80%;
+  float: right;
+  margin-top:5px;
+  color:#fcd000;
+  font-size:16px;
+}
+
+#resumeicons {
+  margin-top:20%;
+}
+
 /************************  DON'T TOUCH THIS PART ***********************/
 @media (min-width:600px)  {
 
