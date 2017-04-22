@@ -39,13 +39,14 @@ body {
     }
 
     .menu h4 {
-      color:#959595;
+      color:#32052F;
       text-transform:uppercase;
       border-style: solid;
       border-width: 0px 0px 1px 0px;
-      border-color:color:#959595;
+      border-color:#32052F;
       padding: 15px;
       text-align: center;
+      background-color: #fcd000;
     }
 
     #mobileview h1, h2 {
@@ -75,7 +76,7 @@ body {
 
     #stickymobile {
       position: fixed;
-      background-color:#32052F;
+      background-color:rgba(50, 5, 47, 0.9);
       z-index: 2;
     }
 }
@@ -189,7 +190,7 @@ body {
 
 .smallphotomobile {
   width:90%;
-  height:30vh;
+  height:50vh;
   object-fit: cover;
   margin-left: 5%;
 }
@@ -207,12 +208,53 @@ body {
 .mobilefooter img {
   width:80%;
   margin-left: 10%;
+  margin-bottom:5%;
 }
 
-.mobilefooter h1 {
-  background-color:#fcd000;
+.nextprojectmobile {
+  background-color: #32052F;
+}
+
+.nextprojectmobile h4 {
+  width:80%;
+  margin-left:10%;
+  background-color: #fcd000;
   color:white;
+  font-size:21px;
+  padding: 10px;
+  margin-bottom:-5px;
+}
+
+.nextprojectmobile h2 {
+  width:80%;
+  margin-left:10%;
+  background-color: #959595;
+  color:white;
+  font-size:18px;
+  padding: 10px;
+}
+
+.nextprojectmobile h3 {
+  width:80%;
+  margin-left:10%;
+  font-size:18px;
+  padding-top:10%;
+  padding-bottom: 5%;
+}
+
+.contactmobile {
+  background-color: #32052F;
+  margin-left:10%;
+}
+
+#mobileicons {
   margin-left: 10%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+#mobileicons i {
+  width:12.5%;
+  float: none;
 }
 
 /************************  DON'T TOUCH THIS PART ***********************/
