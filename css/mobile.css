@@ -119,9 +119,6 @@ body {
   margin-top: 10px;
 }
 
-.contactmobile {
-}
-
 .contactmobile i {
   margin-top:15px;
   display: inline-block;
@@ -135,7 +132,7 @@ body {
   margin-bottom: 20px;
 }
 
-/*************************** BEE PROJECT PAGE MOBILE ****************/
+/*************************** WORK PAGE MOBILE ****************/
 .projectbkgmobile img {
   width:90%;
   height:40vh;
@@ -255,6 +252,12 @@ body {
 #mobileicons i {
   width:12.5%;
   float: none;
+}
+
+
+.indexmobile {
+  width:100%;
+  margin-left:0%;
 }
 
 /************************  DON'T TOUCH THIS PART ***********************/
