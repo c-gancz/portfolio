@@ -425,6 +425,6 @@ function animateList(){
 
 	$('.imagesmall').animate({
 		'margin-left':'-15%'
-	},1300);
+	},1500);
 
 };
