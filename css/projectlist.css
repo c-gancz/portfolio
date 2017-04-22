@@ -46,6 +46,7 @@ h1 {
   border-width:10px;
   border-color: #fcd000;
   padding:20px;
+  opacity: 0;
 }
 
 .projectlist h1 span:hover {

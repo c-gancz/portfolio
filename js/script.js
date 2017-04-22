@@ -424,7 +424,8 @@ function animateList(){
 	$('#beeprojectimage .imagelarge').fadeIn(1250);
 
 	$('.imagesmall').animate({
-		'margin-left':'-15%'
+		'margin-left':'-15%',
+		'opacity':'1'
 	},1500);
 
 };
