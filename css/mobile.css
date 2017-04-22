@@ -180,14 +180,14 @@ body {
 
 .imagemobile {
   width:90%;
-  height:50vh;
+  height:40vh;
   object-fit: cover;
   margin-left: 5%;
 }
 
 .smallphotomobile {
   width:90%;
-  height:50vh;
+  height:40vh;
   object-fit: cover;
   margin-left: 5%;
 }
