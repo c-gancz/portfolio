@@ -222,14 +222,14 @@ body {
   color:white;
   font-size:21px;
   padding: 10px;
-  margin-bottom:-5.25px;
+  margin-bottom: -5px;
 }
 
 .nextprojectmobile h2 {
   width:80%;
   margin-left:10%;
-  background-color: #959595;
-  color:white;
+  color: #959595;
+  background-color:white;
   font-size:18px;
   padding: 10px;
 }
