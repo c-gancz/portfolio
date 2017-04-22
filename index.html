@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/html5doctor.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/mobile.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/script.js" content="text/javascript"></script>
 <title>Christina Gancz - Portfolio</title>
@@ -13,23 +14,26 @@
 
 <body>
 	<div id="mobileview">
-		<a href="index.html">
-			<img src="img/cg_logo.svg" class="mobilelogo">
-			<h1>Christina Gancz</h1>
-			<h2>DESIGN PORTFOLIO</h2>
-			<h3 class="hamburger">☰</h3>
-		</a>
+		<div id="stickymobile">
+			<section class="menu">
+					<a href="html/project_list.html">
+						<h4>Work</h4>
+					</a>
 
-		<section class="navigationmobile">
+					<a href="contact.html">
+						<h4>Contact</h4>
+					</a>
+			</section>
 
-				<a href="html/project_list.html">
-					<h4>Work</h4>
-				</a>
+			<a href="index.html">
+				<img src="img/cg_logo.svg" class="mobilelogo">
+				<h1>Christina Gancz</h1>
+				<h2>DESIGN PORTFOLIO</h2>
+			</a>
 
-				<a href="#">
-					<h4>Contact</h4>
-				</a>
-		</section>
+			<i class="fa fa-bars hamburger" style="font-size:28px;color:#fcd000;"></i>
+		</div>
+
 	</div>
 
 
@@ -50,7 +54,7 @@
 					<a href="html/project_list.html">
 						<h4 class="hvr-underline-reveal">Work</h4>
 					</a>
-					
+
 					<a href="html/contact.html">
 						<h4 id="menulast" class="hvr-underline-reveal">Contact</h4>
 					</a>

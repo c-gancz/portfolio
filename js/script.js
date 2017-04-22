@@ -20,6 +20,8 @@ $(document).ready(function(){
 
 	sliderArrows();
 
+	mobileMenu();
+
 });
 
 /////////////////////// FUNCTIONS //////////////////////////
@@ -319,3 +321,11 @@ function sliderArrows(){
 
 	});
 }
+
+function mobileMenu(){
+
+	$(".hamburger").click(function(){
+    $(".menu").slideToggle();
+});
+
+};
