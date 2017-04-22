@@ -76,7 +76,7 @@ body {
 
     #stickymobile {
       position: fixed;
-      background-color:rgba(50, 5, 47, 0.9);
+      background-color:rgba(50, 5, 47, 0.8);
       z-index: 2;
     }
 }
@@ -222,7 +222,7 @@ body {
   color:white;
   font-size:21px;
   padding: 10px;
-  margin-bottom:-5px;
+  margin-bottom:-5.25px;
 }
 
 .nextprojectmobile h2 {
