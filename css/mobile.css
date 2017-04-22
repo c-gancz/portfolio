@@ -210,9 +210,9 @@ body {
 }
 
 .mobilefooter h1 {
-  width:90%;
   background-color:#fcd000;
   color:white;
+  margin-left: 10%;
 }
 
 /************************  DON'T TOUCH THIS PART ***********************/
