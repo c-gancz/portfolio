@@ -17,6 +17,7 @@ body {
 
 		#mobileview {
 			display: show;
+      background-color: white;
 		}
 
 /**************************** MOBILE NAVIGATION ********************/
@@ -131,6 +132,87 @@ body {
 
 .lastmobile {
   margin-bottom: 20px;
+}
+
+/*************************** BEE PROJECT PAGE MOBILE ****************/
+.projectbkgmobile img {
+  width:90%;
+  height:40vh;
+  object-fit: cover;
+  margin-left: 5%;
+}
+
+.mobiletext {
+  width:100%;
+  height:auto;
+  background-color: white;
+}
+.mobileheader {
+  padding-top:22.5%;
+}
+
+#mobileview .mobileheader h1 {
+  background-color:#fcd000;
+  font-size: 35px;
+  color:white;
+  width: 90%;
+  padding: 10px;
+  margin-left: 5%;
+}
+
+#mobileview .mobileheader h2 {
+  font-size: 18px;
+  width: 90%;
+  margin-left: 5%;
+  padding:10px;
+  background-color: #959595;
+  color:white;
+  margin-top: 0%;
+  line-height:25px;
+}
+
+.mobiletext p {
+  margin-top:7.5%;
+  font-size: 18px;
+  width:90%;
+  margin-left: 5%;
+  line-height:25px;
+  margin-bottom: 7.5%;
+}
+
+.imagemobile {
+  width:90%;
+  height:50vh;
+  object-fit: cover;
+  margin-left: 5%;
+}
+
+.smallphotomobile {
+  width:90%;
+  height:30vh;
+  object-fit: cover;
+  margin-left: 5%;
+}
+
+#lastmobile {
+  margin-bottom: 5%;
+}
+
+.mobilefooter {
+  background-color: #32052F;
+  color:#fcd000;
+  width: 100%;
+}
+
+.mobilefooter img {
+  width:80%;
+  margin-left: 10%;
+}
+
+.mobilefooter h1 {
+  width:90%;
+  background-color:#fcd000;
+  color:white;
 }
 
 /************************  DON'T TOUCH THIS PART ***********************/
