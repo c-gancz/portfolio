@@ -304,7 +304,7 @@ position: fixed;
 
 .ptext p  {
   font-size: 18px;
-  color:#959595;
+  color:#625e5e;
   line-height:25px;
   padding:30px 20px 20px 20px;
 }
@@ -347,6 +347,6 @@ position: fixed;
   margin-top:20%;
 }
 
-#contactbody {
+#contactbody #desktopview {
 	overflow: hidden;
 }
