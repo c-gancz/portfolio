@@ -26,6 +26,8 @@ $(document).ready(function(){
 
 	animateList();
 
+	contactAnimate();
+
 });
 
 /////////////////////// FUNCTIONS //////////////////////////
@@ -428,4 +430,20 @@ function animateList(){
 		'opacity':'1'
 	},1500);
 
+};
+
+/////////////////////  FUNCTION CONTACT PAGE animation
+
+function contactAnimate(){
+
+		$('.profiledescription').animate({
+			'margin-left':'0px',
+			'opacity':'1'
+		},1500);
+
+		$('#profile img').fadeIn(2000);
+
+		$('.smedia').animate({
+			'margin-right':'0px'
+		},1500);
 };
