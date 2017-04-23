@@ -36,7 +36,7 @@ h1 {
 
 .imagesmall {
   width:20%;
-  position: fixed;
+  position: absolute;
   margin-top:225px;
   margin-left:30%;
   object-fit: cover;
@@ -47,7 +47,13 @@ h1 {
   border-color: #fcd000;
   padding:20px;
   opacity: 0;
+
 }
+
+#overflowplist {
+  overflow: hidden;
+}
+
 
 .projectlist h1 span:hover {
   background-color: rgba(252, 208, 0, 0.9);
