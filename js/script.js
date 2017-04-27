@@ -152,7 +152,7 @@ function animateOff(){
 	},1500);
 
 	$(currentSectionId + " .slider-frame").animate({
-		marginTop:"600px"
+		marginTop:"600px",
 	},1500);
 
 	$(currentSectionId + " #frame img").animate({

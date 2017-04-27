@@ -349,3 +349,7 @@ position: fixed;
 #contactbody #desktopview {
 	overflow: hidden;
 }
+
+#desktopview .slider-frame {
+	overflow:visible;
+}
