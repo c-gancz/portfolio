@@ -444,6 +444,6 @@ function contactAnimate(){
 		$('#profile img').fadeIn(2000);
 
 		$('.smedia').animate({
-			'margin-right':'0px'
+			'margin-right':'10px'
 		},1500);
 };
