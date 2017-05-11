@@ -170,11 +170,12 @@ a {
 	margin-top:50px;
 	position: absolute;
 	font-size: 60px;
-	background-color: rgba(252, 208, 0, 0.8);
+	background-color: rgba(252, 208, 0,1);
 	margin-left: -600px;
-	padding: 10px;
+	padding:20px;
 	color: white;
 	cursor: pointer;
+	line-height:70px;
 	opacity:0;
 }
 
