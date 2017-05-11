@@ -9,7 +9,7 @@ gray: #959595;
 h1 {
   font-size:40px;
   color:#fcd000;
-  margin-bottom:6.5vh;
+  padding:20px;
 }
 
 .projectlist {
@@ -50,15 +50,9 @@ h1 {
 
 }
 
-#overflowplist {
-  overflow: hidden;
-}
-
-
-.projectlist h1 span:hover {
+.projectlist h1:hover {
   background-color: rgba(252, 208, 0, 0.9);
   color:white;
-  padding: 10px;
 }
 
 .listfade {

@@ -346,7 +346,6 @@ section .projectlegend {
   float: left;
   height:100%;
   overflow: hidden;
-  opacity: 0;
 }
 
 .projectlegend h1 {
