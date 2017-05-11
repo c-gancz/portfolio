@@ -372,6 +372,12 @@ i {
   margin-bottom: 0%;
 }
 
+  #awardmobile{
+    width:90%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
 
 /************************  DON'T TOUCH THIS PART ***********************/
 @media (min-width:600px)  {
