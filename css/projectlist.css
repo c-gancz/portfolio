@@ -75,3 +75,11 @@ h1 {
 #beeprojectimage .imagelarge {
   display: none;
 }
+
+#logofix {
+  margin-top: -20px;
+}
+
+#logofixh1 {
+  margin-left: -20px;
+}

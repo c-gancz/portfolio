@@ -59,6 +59,16 @@ body {
       width:70%;
     }
 
+    #mobileview .mobileh1 {
+      margin-top:-1%;
+      margin-left: -20px;
+    }
+
+    #mobileview .mobileh2 {
+      padding-left: 20px;
+      width:100%;
+    }
+
     #mobileview h2 {
       font-size:14px;
       margin-top:5px;
@@ -79,6 +89,7 @@ body {
       background-color:rgba(50, 5, 47, 0.8);
       z-index: 2;
     }
+
 }
 
 /**************************** PROJECT SECTIONS ********************/
@@ -156,6 +167,7 @@ body {
   width: 90%;
   padding: 10px;
   margin-left: 5%;
+  margin-top: 50px;
 }
 
 #mobileview .mobileheader h2 {
@@ -165,7 +177,6 @@ body {
   padding:10px;
   background-color: #959595;
   color:white;
-  margin-top: 0%;
   line-height:25px;
 }
 
@@ -285,7 +296,7 @@ body {
   display: inline-block;
   float: right;
   margin-top: 6%;
-  margin-left: -2.5%;
+  margin-left:3%;
 }
 
 .mobileh2 {
@@ -377,8 +388,6 @@ i {
     margin-top: 5%;
     margin-left: 5%;
   }
-
-
 /************************  DON'T TOUCH THIS PART ***********************/
 @media (min-width:600px)  {
 
