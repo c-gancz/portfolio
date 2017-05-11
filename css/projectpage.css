@@ -154,6 +154,7 @@ p {
   background-color:white;
   -webkit-transition: background-color 0.5s; /* Safari */
   transition: background-color 0.5s;
+  padding:10px;
 }
 
 .tabs span:hover {
@@ -351,11 +352,11 @@ section .projectlegend {
 .projectlegend h1 {
   font-size:40px;
   color:white;
-}
-
-.projectlegend span {
-  line-height:58px;
-  padding:5px;
+  background-color:#fcd000;
+  position: absolute;
+  padding: 10px;
+  width:25%;
+  margin-top: 20px;
 }
 
 .projectlegend img {
