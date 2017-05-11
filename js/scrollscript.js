@@ -29,6 +29,12 @@ function headerFade(){
   },1500);
 
   $('#headertext').fadeIn(2000);
+
+  $('#award').animate({
+    marginTop:'60px',
+    opacity:'1'
+  },1500);
+
 };
 
 function tabsFade(){
