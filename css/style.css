@@ -285,7 +285,8 @@ position: fixed;
   background-color: #fcd000;
   color:white;
   padding:20px;
-	width:40%;
+	width:25%;
+	position: absolute;
 }
 
 .profiledescription h1, .smedia h1 {
@@ -299,6 +300,7 @@ position: fixed;
 
 .ptext {
   background-color: white;
+	margin-top:80px;
   /*width:85%;*/
 }
 
@@ -315,6 +317,10 @@ position: fixed;
   display: inline-block;
   float: right;
 	margin-right:-600px;
+}
+
+.smedia h1 {
+	margin-left: -25px;
 }
 
 .smedia i, .smedia p {
