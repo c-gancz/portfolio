@@ -9,11 +9,12 @@ gray: #959595;
 body {
   overflow: visible;
   font-family: 'Lato', sans-serif;
+  background-size:cover;
 }
 
 #bee{
   background: url(../img/cover1_beeproject.jpg) no-repeat top center fixed;
-  background-size: cover;
+  background-size:cover;
 }
 
 #charlie{
@@ -364,8 +365,8 @@ section .projectlegend {
   display: inline-block;
   height:320px;
   float: right;
-  margin-top:-225px;
-  object-fit: cover;
+  margin-top:-150px;
+  object-fit:cover;
 }
 
 .projectlegend h2 {
