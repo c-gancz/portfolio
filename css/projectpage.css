@@ -124,6 +124,141 @@ p {
   line-height:92px;
 }
 
+/***************** STATISTICS SECTION ****************/
+#statistics {
+  background-color:#32052F;
+  width:100%;
+  padding:5%;
+  display: inline-block;
+  float: left;
+}
+
+.circle-wrap {
+  width:200px;
+  height:200px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width:200px;
+  height:200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px,200px, 200px,100px);
+}
+
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px,100px, 200px, 0px);
+  background-color:#fcd000;
+}
+
+#statcircle1 .circle-wrap .circle .mask.full,
+#statcircle1 .circle-wrap .circle .fill {
+  animation: statcircle1 ease-in-out 2s;
+  transform: rotate(90deg);
+}
+
+@keyframes statcircle1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+#statcircle2 .circle-wrap .circle .mask.full,
+#statcircle2 .circle-wrap .circle .fill {
+  animation: statcircle2 ease-in-out 2s;
+  transform: rotate(95deg);
+}
+
+@keyframes statcircle2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(95deg);
+  }
+}
+
+#statcircle3 .circle-wrap .circle .mask.full,
+#statcircle3 .circle-wrap .circle .fill {
+  animation: statcircle3 ease-in-out 2s;
+  transform: rotate(45deg);
+}
+
+@keyframes statcircle3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+#statcircle4 .circle-wrap .circle .mask.full,
+#statcircle4 .circle-wrap .circle .fill {
+  animation: statcircle4 ease-in-out 2s;
+  transform: rotate(177deg);
+}
+
+@keyframes statcircle4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(177deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  line-height: 130px;
+  text-align: center;
+  margin-top:35px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size:60px;
+  color:#32052F;
+}
+
+.statcircle {
+  /*background-color: orange;*/
+  width:200px;
+  display: inline-block;
+  float: left;
+}
+
+#statistics #statwrap {
+  /*background-color: red;*/
+  display:table;
+  width:950px;
+  margin: 0 auto;
+  /*padding-left:12.5%;
+  padding-right:12.5%;*/
+}
+
+#statcircle1, #statcircle2, #statcircle3 {
+  margin-right:50px;
+}
+
+.statcircle h4 {
+  font-size:18px;
+  text-align: center;
+  padding-top: 30px;
+  color:#bb94b9;
+  line-height:28px;
+}
+
 /***************** BRIEF SECTION ****************/
 .projecttext {
   width:100%;
@@ -131,7 +266,6 @@ p {
   height:auto;
   position:absolute;
   margin-top: 100%;
-  padding-top: 10%;
 }
 
 .tabs {
@@ -141,6 +275,8 @@ p {
   width:15%;
   font-size: 30px;
   opacity: 0;
+  padding-top: 5%;
+  padding-bottom:2.5%;
 }
 
 .tabs h2 {
@@ -171,7 +307,8 @@ p {
   margin-right: 10%;
   width:55%;
   float: right;
-  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .brieftext, .researchtext, .finaltext {
@@ -184,6 +321,9 @@ p {
 }
 
 /***************** PROCESS 1 SECTION ****************/
+.fullphoto1 img{
+  width:100%;
+}
 
 .process1 {
   background-color:#32052F;
@@ -192,12 +332,14 @@ p {
   /*If sections display on top of one another, make sure to add display inline-block + float*/
   float:left;
   height:auto;
-  padding: 5% 10% 5% 10%;
+  padding:0% 10% 5% 10%;
+  margin-top: -1%;
 }
 
 .process1 h1 {
   color:#bb94b9;
   font-size:45px;
+  margin-top: 5%;
 }
 
 .processbox {
@@ -235,6 +377,7 @@ p {
   padding:20px;
   text-align: center;
   padding-top:40px;
+  margin-bottom:10%;
 }
 
 #drying {
@@ -293,6 +436,9 @@ p {
   opacity: 0;
 }
 
+.pimage1 {
+  margin-top: 5%;
+}
 
 /***************** PHOTO SLIDER ****************/
 
