@@ -196,47 +196,50 @@ p {
 }
 
 .process1 h1 {
-  color:white;
-  font-size:30px;
-  /*background-color: #fcd000;*/
-  padding:15px;
+  color:#bb94b9;
+  font-size:45px;
 }
 
 .processbox {
   width:30%;
-  height:300px;
+  height:auto;
   display: inline-block;
   float:left;
   margin-top:5%;
-  /*background-color: green;*/
 }
 
 .processbox img {
-  margin-bottom: 5%;
-}
-#seeds {
-  margin-left:5%;
-}
-
-#seeds img {
-  width:65%;
-  margin-left:15%;
-  margin-top: -10px;
-}
-
-#clay img, #compost img {
+  margin-bottom: 40px;
   width: 55%;
   margin-left:22.5%;
   margin-top: 25px;
 }
 
-
 .process1 h2 {
   font-size:30px;
-  font-weight:400;
   margin-top: 5%;
-  color:#fcd000;
+  color:#32052F;
+  background-color:#fcd000;
   text-align: center;
+  padding: 15px;
+}
+
+#seeds, #clay {
+  margin-right: 5%;
+}
+
+.processbox p {
+  color:#bb94b9;
+  width:100%;
+  margin-right: -0%;
+  padding:20px;
+  text-align: center;
+  padding-top:40px;
+}
+
+#drying {
+  width: 127.5%;
+  margin-left: -15%;
 }
 
 /***************** FULL PHOTO SECTION ****************/
